@@ -1,9 +1,24 @@
 # Introduction
-I built this project as a fun way to learn more about PCB, CAD and firmware design. I spent quite a lot of time on it and learned a lot, especially about CAD modelling. I hope to show it off by hooking it up to my keys and other accessories. 
+I built this project as a fun way to learn more about PCB, CAD and firmware design. I spent quite a lot of time on it and learned a lot especially about CAD modelling. I hope to show it off by hooking it up to my keys and other accessories.
 
-# Specs/BOM
+# How it works
+The Xiao ESP32-S3 reads tilt from the ADXL345 accelerometer. This is used to create interactive animations displayed on the OLED. As of right now, there is only one "game", the ball game. As you tilt the device the ball starts speeding up in that direction and slows down over time from "friction." The ball also bounces off the edge, which is displayed as a white box. The device will support more of these interactive animations and the animations will be cycled by tap detection on the accelerometer module. This version of the Xiao supports a rechargeable battery with an on-board charging module, which this device will utilize.
 
-- 1x XIAO ESP-32 S3 https://www.digikey.ca/en/products/detail/seeed-technology-co-ltd/113991114/19285530 
-- 1x ADXL 345 module https://www.aliexpress.com/item/1005010198382356.html?spm=a2g0o.cart.0.0.5d5e38dahUSJv3&mp=1&pdp_npi=6%40dis%21USD%21USD+3.55%21USD+3.55%21%21USD+3.55%21%21%21%402101c4b817863339641254755e0dcd%2112000051497250524%21ct%21CA%212806211224%21%211%210%21 
-- 1x SH1107 1.5 inch I2C OLED display https://www.aliexpress.com/item/1005009890032032.html?spm=a2g0o.cart.0.0.5d5e38dahUSJv3&mp=1&pdp_npi=6%40dis%21USD%21USD+17.54%21USD+8.59%21%21USD+8.50%21%21%21%402101c4b817863339641254755e0dcd%2112000050490792101%21ct%21CA%212806211224%21%211%210%21
-- 1x 502030 Battery 3.7V Lipo 250mAh https://www.aliexpress.com/item/1005006584143607.html?spm=a2g0o.cart.0.0.5d5e38dahUSJv3&mp=1&pdp_npi=6%40dis%21USD%21USD+9.25%21USD+5.64%21%21USD+5.64%21%21%21%402101c4b817863339641254755e0dcd%2112000037729349745%21ct%21CA%212806211224%21%211%210%21&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D
+# PCB design
+The schematic and PCB were made using the open-source software KiCad. I made sure to use global net variables for the schematic because otherwise, I would be left with incomprehensible messy wiring. The PCB uses a two-layer system. The top layer (F.Cu) is used for routing traces, whereas the bottom layer (B.Cu) is used for grounding using copper fill zones. I made sure to make the power traces 0.5mm in thickness as recommended by professionals in the industry.
+
+# Challenges
+All went quite smoothly except for the CAD modelling part. I used Fusion only once and that was by following a tutorial. Therefore, this project gave me a massive headache! I had lots of trouble just doing the most basic and minute things such as creating a sketch, projecting onto a sketch, etc. However, due to the immense amount of time I spent, I learned a lot regarding the basics of Fusion and spending so much time on it just made completing the final design more rewarding. I am very proud of how it turned out. 
+
+| Schematic | PCB |
+|-----------|-----|
+| <img src="PCB/Schematic.png" width="400"> | <img src="PCB/PCB_design.png" width="400"> |
+
+# CAD design
+The CAD components were built using AutoDesk Fusion software. The components are all inside a 38x50x20 mm 3D-printed case with a key loop at the top and a USB-C cutout at the bottom. The back is covered using a snap-fit cover.
+
+| Fusion Snapshot |
+|------------------|
+| <img src="CAD MODEL/Screenshot 2026-08-09 232611.png" width="400"> |
+
+
