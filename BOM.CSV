@@ -1,5 +1,5 @@
-Quantity,Item,Link
-1,XIAO ESP32-S3,https://www.digikey.ca/en/products/detail/seeed-technology-co-ltd/113991114/19285530
-1,ADXL345 module,https://www.aliexpress.com/item/1005010198382356.html
-1,SH1107 1.5 inch I2C OLED display,https://www.aliexpress.com/item/1005009890032032.html
-1,502030 Battery 3.7V Lipo 250mAh,https://www.aliexpress.com/item/1005006584143607.html
+Quantity,Item,Price(excl tax & ship),Link
+1,XIAO ESP32-S3,$7.49,https://www.digikey.ca/en/products/detail/seeed-technology-co-ltd/113991114/19285530
+1,ADXL345 module,$2.55,https://www.aliexpress.com/item/1005010198382356.html
+1,SH1107 1.5 inch I2C OLED display,$7.59,https://www.aliexpress.com/item/1005009890032032.html
+1,502030 Battery 3.7V Lipo 250mAh,$5.63,https://www.aliexpress.com/item/1005006584143607.html
