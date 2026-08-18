@@ -4,7 +4,9 @@ I built this project as a fun way to learn more about PCB, CAD and firmware desi
 # How it works
 The Xiao ESP32-S3 reads tilt from the ADXL345 accelerometer. This is used to create interactive animations displayed on the OLED. As of right now, there is only one "game", the ball game. As you tilt the device the ball starts speeding up in that direction and slows down over time from "friction." The ball also bounces off the edge, which is displayed as a white box. The device will support more of these interactive animations and the animations will be cycled by tap detection on the accelerometer module. This version of the Xiao supports a rechargeable battery with an on-board charging module, which this device will utilize.
 
-# Firmware flashing
+# Firmware & Flashing
+
+* **ino (arduino) file:** [ball_game.ino](Firmware/ball_game.ino)
 
 1. Install Arduino IDE
 2. Add ESP 32 board support: Click on file, preferences, then paste this into the additional board managers URL (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
