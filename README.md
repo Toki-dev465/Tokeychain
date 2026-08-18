@@ -22,11 +22,24 @@ The schematic and PCB were made using the open-source software KiCad. I made sur
 |-----------|-----|
 | <img src="PCB/Schematic.png" width="400"> | <img src="PCB/PCB_design.png" width="400"> |
 
+### PCB and Schematic files
+
+* **Project:** [Tokeychain.kicad_pro](PCB/Tokeychain.kicad_pro)
+* **PCB:** [Tokeychain.kicad_pcb](PCB/Tokeychain.kicad_pcb)
+* **Schematic:** [Tokeychain.kicad_sch](PCB/Tokeychain.kicad_sch)
+* **Gerbers:** [Tokeychain_Gerbers.zip](PCB/Tokeychain_Gerbers.zip)
+
 # CAD design
 The CAD components were built using AutoDesk Fusion software. The components are all inside a 38x50x20 mm 3D-printed case with a key loop at the top and a USB-C cutout at the bottom. The back is covered using a snap-fit cover.
 
 | Fusion Snapshot |
 |------------------|
 | <img src="CAD MODEL/Tokeychain_assembled.png" width="400"> |
+
+### CAD & Print Files
+
+* **Preview:** [Tokeychain_assembled.png](CAD%20MODEL/Tokeychain_assembled.png)
+* **3D Model:** [Tokeychain.stl](CAD%20MODEL/Tokeychain.stl)
+* **Source File:** [Tokeychain_assembled.f3z](CAD%20MODEL/Tokeychain_assembled.f3z)
 
 
