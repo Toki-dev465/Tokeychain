@@ -27,6 +27,6 @@ The CAD components were built using AutoDesk Fusion software. The components are
 
 | Fusion Snapshot |
 |------------------|
-| <img src="CAD MODEL/Screenshot 2026-08-09 232611.png" width="400"> |
+| <img src="CAD MODEL/Tokeychain_assembled.png" width="400"> |
 
 
