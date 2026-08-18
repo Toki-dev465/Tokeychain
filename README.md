@@ -41,5 +41,6 @@ The CAD components were built using AutoDesk Fusion software. The components are
 * **Preview:** [Tokeychain_assembled.png](CAD%20MODEL/Tokeychain_assembled.png)
 * **3D Model:** [Tokeychain.stl](CAD%20MODEL/Tokeychain.stl)
 * **Source File:** [Tokeychain_assembled.f3z](CAD%20MODEL/Tokeychain_assembled.f3z)
+* **Step file:** [Tokeychain_assembled.step](CAD%20MODEL/Tokeychain_assembled.step)
 
 
